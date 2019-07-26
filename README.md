@@ -2,6 +2,8 @@
 
 ## 基礎
 
-### 離散数学
+情報科学の勉強をする上で基礎となる分野
 
-### アルゴリズム
+### [離散数学](https://github.com/diohabara/computerScience/tree/master/discreteMath/overview)
+
+### [アルゴリズム](https://github.com/diohabara/computerScience/tree/master/algorithm/overview)
