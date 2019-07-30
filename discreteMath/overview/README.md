@@ -6,6 +6,10 @@
 
 [wiki](https://en.wikipedia.org/wiki/Discrete_mathematics)
 
+## 精神論
+
+
+
 ## 集合
 
 ## 証明
