@@ -6,7 +6,7 @@
 
 [wiki](https://en.wikipedia.org/wiki/Discrete_mathematics)
 
-## 集合
+## [集合](https://github.com/diohabara/computerScience/tree/master/discreteMath/1set)
 
 ## 証明
 
