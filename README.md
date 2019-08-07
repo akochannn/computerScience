@@ -1,10 +1,22 @@
 # 情報科学(Computer Science)に関するまとめ
 
+###### tags: `情報科学まとめ`
+
+自分が学んだことのまとめとして情報科学に関する知識を書いていこうと思います
+
 ## 基礎
 
-### [離散数学](https://github.com/diohabara/computerScience/tree/master/discreteMath/overview)
+### 離散数学
 
-### [アルゴリズム](https://github.com/diohabara/computerScience/tree/master/algorithm/overview)
+情報科学で概念を把握するのに必要となる知識
+
+- 集合
+
+### アルゴリズム
+
+OS,暗号技術,人工知能,ネットワーク,コンパイラー...などなどあらゆる情報科学の分野で必要となる知識
+
+- 計算量
 
 ## 関連
 
