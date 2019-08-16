@@ -64,9 +64,8 @@ Big-Theta記法は上の記法のどちらもが当てはまるとき,つまり
 
 ## Master Theorem
 
-$a\geq 1$, $b \geq 1$, $d$を$n$に独立な定数とする
+$$a\geq 1$$, $$b \geq 1$$, $$d$$を$$n$$に独立な定数とする
 
-このとき$T(n)=a\cdot(\frac{n}{b}) + O(n^d)$とする
+このとき$$T(n)=a\cdot(\frac{n}{b}) + O(n^d)$$とする
 
 ## まとめ
-
