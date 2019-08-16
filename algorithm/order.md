@@ -22,6 +22,20 @@ description: アルゴリズムの計算の効率性に関して
 * デメリット
   * 入力が大きい時しか考慮していない
 
+この計算量を求める方法は
+
+1. **Tree Method**
+2. **Master Theorem\(Generalized Method\)**
+3. **Substitution Method**
+
+以上の3種類が有ります
+
+Tree Methodを一般化したものなので以下では**Master Theorem**と**Sustitution Method** を扱います
+
+その前に計算量の記法について学びましょう
+
+### 計算量記法
+
 ここではBig-O記法･Big-Omega記法･Big-Theta記法について考えます
 
 **Big-O**
@@ -60,12 +74,60 @@ $$
 
 **Big-Theta**
 
-Big-Theta記法は上の記法のどちらもが当てはまるとき,つまり
+Big-Theta記法は上の記法のどちらもが当てはまるときです
 
-## Master Theorem
+つまり,以下の式を満たします
 
-$$a\geq 1$$, $$b \geq 1$$, $$d$$を$$n$$に独立な定数とする
+$$
+\exists{c_0, c_1, n_0} > 0 \text{ s.t. } \forall{n} \leq n_0\\
+0 \leq c_0 \cdot g(n) \leq f(n) \leq c_1\cdot g(n)
+$$
 
-このとき$$T(n)=a\cdot(\frac{n}{b}) + O(n^d)$$とする
+Big-Theta記法は無限に大きい$$n$$で$$g(n)$$の定数倍に$$T(n)$$が**挟まれる**状態にあるということです
+
+### Master Theorem
+
+最初に定理を紹介し,あとから説明をします
+
+$$a\geq 1$$, $$b \geq 1$$, $$d$$を$$n$$に独立な定数とします
+
+このとき$$T(n)=a\cdot T(\frac{n}{b}) + O(n^d)$$とすると以下の式を満たします
+
+
+
+$$
+T(n) = \begin{cases}
+O(n^{d}log(n)) & (a = b^d)\\
+O(n^d) & (a < b^d)\\
+O(n^{log_b(a)}) & (a > b^d)
+\end{cases}
+$$
+
+この定理を**分類定理**\(master theorem\)と言います
+
+{% hint style="info" %}
+* $$a$$ : 分割された下位問題の数
+* $$b$$ : 入力の大きさが縮む倍率\($$2 \rightarrow 1$$のときは$$b=2$$\)
+* $$d$$ : 全ての問題を分割し統合するのに必要な計算量
+{% endhint %}
+
+この定理は問題を分割し,それらを更に分割し解くという考えを使っています\(これを**再帰**と言います\)
+
+入力が$$n$$の問題を$$T(n)$$で解くアルゴリズムを考えます
+
+* 入力$$n$$を$$a$$個に分割する
+* 分割された入力を$$T(\frac{n}{b})$$で解く
+* 分割された各アルゴリズムに対してかかる時間が$$(O(n^{log_b(a)})$$である
+
+このようにすると$$T(n)$$は上のような式になります.実際にそれぞれのケースごとに正しいか確認してみましょう
+
+* $$a=b^d$$の場合
+* $$a < b^d$$の場合
+* $$a > b^d$$の場合
+
+### Substitution Method
+
+これは
 
 ## まとめ
+
