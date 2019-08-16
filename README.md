@@ -11,5 +11,7 @@ description: 情報科学に関するまとめ
 
 ### 関連
 
-* [Related topics](related-topics.md)
+* [Latex](related-topics/latex.md)
+* [Git](related-topics/git.md)
+* [Editor](related-topics/editor.md)
 

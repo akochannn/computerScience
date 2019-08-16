@@ -1,5 +1,5 @@
 ---
-description: アルゴリズムの計算の効率性に関して
+description: アルゴリズムの計算の効率性について
 ---
 
 # Order

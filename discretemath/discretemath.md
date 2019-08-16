@@ -1,8 +1,10 @@
 ---
-description: 情報科学で概念を把握するのに必要となる知識
+description: 離散数学の目次
 ---
 
 # Discrete Math
+
+情報科学で概念を把握するのに必要となる知識
 
 * [Set theory](set-theory.md)
 * 証明

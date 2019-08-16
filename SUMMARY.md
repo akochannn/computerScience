@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Computer Science Recaptulation](README.md)
-* [Related topics](related-topics.md)
 
 ## discreteMath
 
@@ -13,9 +12,9 @@
 * [Algorithm](algorithm/algorithm.md)
 * [Order](algorithm/order.md)
 
-## Related Topics <a id="related-topics-1"></a>
+## Related Topics
 
-* [Latex](related-topics-1/latex.md)
-* [Git](related-topics-1/git.md)
-* [Editor](related-topics-1/editor.md)
+* [Latex](related-topics/latex.md)
+* [Git](related-topics/git.md)
+* [Editor](related-topics/editor.md)
 
