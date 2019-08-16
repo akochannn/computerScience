@@ -10,7 +10,7 @@ description: アルゴリズムの計算の効率性に関して
 
 ここでは時間計算量について考えます
 
-#### Asymptotic Analysis
+## Asymptotic Analysis
 
 計算量とはそのアルゴリズムがどのような関数に漸近するのかを考えたものです
 
@@ -62,7 +62,11 @@ $$
 
 Big-Theta記法は上の記法のどちらもが当てはまるとき,つまり
 
-#### Master Theorem
+## Master Theorem
 
-#### まとめ
+$a\geq 1$, $b \geq 1$, $d$を$n$に独立な定数とする
+
+このとき$T(n)=a\cdot(\frac{n}{b}) + O(n^d)$とする
+
+## まとめ
 
