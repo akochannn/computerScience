@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Computer Science Recaptulation](README.md)
 * [Related topics](related-topics.md)
 
 ## discreteMath
