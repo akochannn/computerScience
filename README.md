@@ -8,7 +8,7 @@ description: 情報科学に関するまとめ
 
 間違いがありましたらPull Requestや上にある[Twitter](https://twitter.com/leagarconaujapon)に連絡をください
 
-また文章ではOSをUbuntuかMacとして想定しています
+また文章ではOSをUbuntu\(18.04以降\)かMac OS\(Mojave以降\)として想定しています
 
 ### 基礎
 
