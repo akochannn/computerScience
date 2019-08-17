@@ -14,7 +14,7 @@
 
 ## Related Topics
 
+* [Editor](related-topics/editor.md)
 * [LaTex](related-topics/latex.md)
 * [Git](related-topics/git.md)
-* [Editor](related-topics/editor.md)
 
