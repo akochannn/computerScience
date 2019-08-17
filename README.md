@@ -15,3 +15,7 @@ description: 情報科学に関するまとめ
 * [Git](related-topics/git.md)
 * [Editor](related-topics/editor.md)
 
+{% hint style="info" %}
+本文に従って何かしらの不利益を被った際の責任は取りませんのであしからず
+{% endhint %}
+
