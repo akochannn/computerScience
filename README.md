@@ -10,6 +10,19 @@ description: 情報科学に関するまとめ
 
 また文章ではOSをUbuntu\(18.04以降\)かMac OS\(Mojave以降\)として想定しています
 
+{% hint style="info" %}
+今後
+
+```text
+$ mkdir prog
+$ cd prog
+```
+
+のような記述をしますが,`$` は実際には入力しないでください
+
+`$`は｢この操作がTerminal内のものですよ｣ということを表しています
+{% endhint %}
+
 ### 基礎
 
 * [Discrete Math](discretemath/discretemath.md)
