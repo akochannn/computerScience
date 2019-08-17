@@ -6,6 +6,7 @@
 
 * [Discrete Math](discretemath/discretemath.md)
 * [Set theory](discretemath/set-theory.md)
+* [Proof](discretemath/proof.md)
 
 ## Algorithm
 
