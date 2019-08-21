@@ -26,7 +26,9 @@ $ sudo apt-get update
 $ sudo apt-get install code # or code-insiders
 ```
 
-Mac OSを利用している方は以下のHomebrewをインストールしていない方は
+Mac OSを利用している方は以下の通りです
+
+Homebrewをインストールしていない方は
 
 ```text
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -39,7 +41,7 @@ HomebrewとはMac OSのパッケージ管理ソフトウェアです
 つまり,ソフトウェアを管理するソフトウェアです
 
 {% hint style="info" %}
-`もちろんこのソフトウェアは非常に人気で多くのエンジニアが使っていますが...`
+`このソフトウェアは非常に人気で多くのエンジニアが使っていますが...`
 
 `Homebrewを作ったエンジニアは`[`Googleの面接で二分木を反転させることができずに落とされました`](https://twitter.com/mxcl/status/608682016205344768?s=20)\`\`
 {% endhint %}
