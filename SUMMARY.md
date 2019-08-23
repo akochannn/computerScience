@@ -13,6 +13,11 @@
 * [Algorithm](algorithm/algorithm.md)
 * [Order](algorithm/order.md)
 
+## Information Theory
+
+* [Information Theory](information-theory/information-theory.md)
+* [Entropy](information-theory/entropy.md)
+
 ## Related Topics
 
 * [Editor](related-topics/editor.md)

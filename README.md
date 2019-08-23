@@ -27,6 +27,7 @@ $ cd prog
 
 * [Discrete Math](discretemath/discretemath.md)
 * [Algorithm](algorithm/algorithm.md)
+* [Information Theory](information-theory/information-theory.md)
 
 ### 関連
 
