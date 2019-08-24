@@ -17,6 +17,7 @@
 
 * [Information Theory](information-theory/information-theory.md)
 * [Entropy](information-theory/entropy.md)
+* [Information Resource](information-theory/information-resource.md)
 
 ## Related Topics
 
