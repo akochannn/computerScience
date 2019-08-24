@@ -273,7 +273,7 @@ $$\mathbb{Z}$$の要素が非負数のとき$$\mathbb{N}$$の偶数の要素と�
 つまりカントールの定理から以下のようなことが言えるわけです
 
 $$
-|programs| \leq |string| \leq |\wp(strings)| \leq |problems|
+|\text{programs}| \leq |\text{string}| \leq |\wp(\text{strings})| \leq |\text{problems}|
 $$
 
 そして,コンピュータで解ける問題というのはほとんどないということがわかります
