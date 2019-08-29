@@ -6,9 +6,9 @@ description: 情報科学に関するまとめ
 
 このでは情報科学に関連する情報をまとめています
 
-間違いがありましたらPull Requestや上にある[Twitter](https://twitter.com/leagarconaujapon)に連絡をください
+間違いがありましたらPull Requestをするか上にある[Twitter](https://twitter.com/leagarconaujapon)に連絡をください
 
-また文章ではOSをUbuntu\(18.04以降\)かMac OS\(Mojave以降\)として想定しています
+また文中ではOSをUbuntu\(18.04以降\)かMac OS\(Mojave以降\)として想定しています
 
 {% hint style="info" %}
 今後
