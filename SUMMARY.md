@@ -25,4 +25,3 @@
 * [LaTex](related-topics/latex.md)
 * [Git](related-topics/git.md)
 * [SQL](related-topics/sql.md)
-
