@@ -4,15 +4,19 @@ description: SQLについて
 
 # SQL
 
-### 文法
+## 文法
 
-#### SELECT文
+### CAST文
 
-`SELECT`
+`
 
-#### WITH文
+### SELECT文
 
-`SELECT` 文の前にサブクエリを作ります
+`SELECT`文
+
+### WITH文
+
+`SELECT`文の前にサブクエリを作ります
 
 ```text
 WITH サブクエリ AS (...<サブクエリを作るための処理>)
