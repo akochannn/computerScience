@@ -140,3 +140,15 @@ RANK() OVER (PARITITION BY <group> ORDER BY <value> (DESC|ASC)) [AS] name
 ```text
 (DATE_ADD|DATE_SUB)(<date>, INTERVAL <integer> (DAY|MONTH|YEAR))
 ```
+
+### UNION
+
+複数の結果をまとめるのに使います
+
+下の例のように2つの問い合わせ結果の和集合を求めるのに使います
+
+```text
+<SELECT文1>
+UNION [ALL]
+<SELECT文1>
+```
