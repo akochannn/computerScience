@@ -14,22 +14,24 @@ description: 情報科学に関するまとめ
 今後
 
 ```text
-$ mkdir prog
-$ cd prog
+$ ls prog
+hoge
 ```
 
 のような記述をしますが,`$` は実際には入力しないでください
 
-`$`は｢この操作がTerminal内のものですよ｣ということを表しています
+`$`は｢この部分は操作しているところだよ｣ということを表しています
+
+その下の部分が`$`により生じた結果です
 {% endhint %}
 
-### 基礎
+## 基礎
 
 * [Discrete Math](discretemath/discretemath.md)
 * [Algorithm](algorithm/algorithm.md)
 * [Information Theory](information-theory/information-theory.md)
 
-### 関連
+## 関連
 
 * [Editor](related-topics/editor.md)
 * [Latex](related-topics/latex.md)
@@ -38,4 +40,3 @@ $ cd prog
 {% hint style="info" %}
 本文に従って何かしらの不利益を被った際の責任は取りませんのであしからず
 {% endhint %}
-
