@@ -10,7 +10,7 @@ description: エディタについて
 
 そのためプログラミングをするためには様々な高性能のエディタが開発されています
 
-### Visual Studio Code
+## Visual Studio Code
 
 プログラミングを始めたばかりという人におすすめのエディタです
 
@@ -21,9 +21,9 @@ description: エディタについて
 Ubuntuを利用している方は以下のコマンドをTerminalに入力してください
 
 ```text
-$ sudo apt-get install apt-transport-https
-$ sudo apt-get update
-$ sudo apt-get install code # or code-insiders
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install code # or code-insiders
 ```
 
 Mac OSを利用している方は以下の通りです
@@ -31,7 +31,7 @@ Mac OSを利用している方は以下の通りです
 Homebrewをインストールしていない方は
 
 ```text
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 をTerminalに入力してインストールを済ませてください
@@ -49,13 +49,11 @@ HomebrewとはMac OSのパッケージ管理ソフトウェアです
 その後,
 
 ```text
-$ brew　update
-$ brew cask install visual-studio-code
+brew　update
+brew cask install visual-studio-code
 ```
 
 と入力することでMac OSにインストールは完了します
-
-
 
 ## Emacs
 
@@ -76,7 +74,7 @@ brew cask install emacs # 上に加えてLaunchpadにアプリケーションが
 下2つは通常のアプリケーションと同じように開けますが
 
 ```text
-$ emacs -nw
+emacs -nw
 ```
 
 と起動するとTerminalのwindow上で開くことができます
@@ -84,13 +82,13 @@ $ emacs -nw
 Ubuntuの場合は以下のようにします
 
 ```text
-$ sudo apt install emacs
+sudo apt install emacs
 ```
 
 ### 共通
 
 ```text
-$ emacs
+emacs
 ```
 
 で起動させます
@@ -234,9 +232,8 @@ Emacsの拡張機能です
 iTerm2はTerminalアプリでMac OSを使っている方は以下のコマンドでダウンロードをすることが可能です
 
 ```text
-$ brew cask install iterm2
+brew cask install iterm2
 ```
 
 * 初期化:`defaults delete com.googlecode.iterm2`
 * 諸設定:[https://qiita.com/ruwatana/items/8d9c174250061721ad11](https://qiita.com/ruwatana/items/8d9c174250061721ad11)
-
