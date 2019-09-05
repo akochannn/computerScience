@@ -65,7 +65,7 @@ GROUP BY name
 
 `ORBER BY`は抽出したデータの並べ替えをします
 
-`DESC`をつけると降順,`ASC`をつけると昇順です(`ASC`がデフォルト値です)
+`DESC`をつけると降順,`ASC`をつけると昇順です\(`ASC`がデフォルト値です\)
 
 ```text
 ORDER BY <column> (DESC|ASC)*
