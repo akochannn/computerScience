@@ -22,7 +22,7 @@ FROM → WHERE → GROUP BY → HAVING → SELECT
   - 変数への値の代入は次のようにします.`SET @<variable> <value>`
     - これは宣言の後にする方法です
   - 変数の宣言と値の代入を同時にすることも可能です.`DECLARE @<variable> <data_type> = <value>`
-- `NULL`は値でないので条件文で`<value> = NULL`と書くことができません.代わりに`<value> is NULL`と書きます
+- `NULL`は値でないので条件文で`<value> = NULL`と書くことができません.代わりに`<value> IS [NOT] NULL`と書きます
 
 ### GROUP BY
 
