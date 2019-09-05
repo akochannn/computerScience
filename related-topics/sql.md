@@ -100,8 +100,10 @@ WITH <sub_query> AS (<processing the sub_query>)
 `INNER JOIN`はそれぞれのテーブルの指定した列の値が条件を満たすものだけを統合します
 
 ```text
-SELECT <column1> <column2> FROM <table1>
-    INNER JOIN <table2> ON <condition>
+SELECT <column1> <column2>
+FROM <table1>
+INNER JOIN <table2>
+  ON <condition>
 ```
 
 ### OUTER JOIN
@@ -113,8 +115,10 @@ SELECT <column1> <column2> FROM <table1>
 例えば,`LEFT`の場合,`LEFT`のテーブルにしかない値も取得し,`RIGHT`の列が入る部分は`NULL`で補完されます
 
 ```text
-SELECT <column1> <column2> FROM <table1>
-    (LEFT|RIGHT) OUTER JOIN table2 ON <condition>
+SELECT <column1> <column2>
+FROM <table1>
+(LEFT|RIGHT) OUTER JOIN table2
+  ON <condition>
 ```
 
 ### RANK
@@ -145,10 +149,12 @@ RANK() OVER (PARITITION BY <group> ORDER BY <value> (DESC|ASC)) [AS] name
 
 複数の結果をまとめるのに使います
 
-下の例のように2つの問い合わせ結果の和集合を求めるのに使います
+`ALL`を付けると重複も含めて結果を結合させます
+
+`DISTINCT`を付けると重複を取り除きます.付けなくても同じです
 
 ```text
 <SELECT文1>
-UNION [ALL]
-<SELECT文1>
+UNION [(ALL|DISTINCT)]
+<SELECT文2>
 ```
