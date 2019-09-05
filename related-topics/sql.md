@@ -128,3 +128,15 @@ SELECT <column1> <column2> FROM <table1>
 ```text
 RANK() OVER (PARITITION BY <group> ORDER BY <value> (DESC|ASC)) [AS] name
 ```
+
+### DATE_SUB, DATE_ADD
+
+日付を前後させて調べるのに使います
+
+`DATE_ADD`で後の時間,`DATE_SUB`で前の時間を指定できます
+
+`<date>`は基準とする時間,`<integer>`は`DAY`,`MONTH`,`YEAR`を単位にしたずらす時間です
+
+```text
+(DATE_ADD|DATE_SUB)(<date>, INTERVAL <integer> (DAY|MONTH|YEAR))
+```
