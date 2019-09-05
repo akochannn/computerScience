@@ -16,7 +16,13 @@ FROM → WHERE → GROUP BY → HAVING → SELECT
 
 ### 句
 
-- `null`は値でないので条件文で`<value> = null`と書くことができません.代わりに`<value> is null`と書きます
+- 変数は型と値を持っています
+  - 宣言の仕方は次のようにします.`DECLARE @<variable> <data_type>`
+    - 初期設定では値は`NULL`です
+  - 変数への値の代入は次のようにします.`SET @<variable> <value>`
+    - これは宣言の後にする方法です
+  - 変数の宣言と値の代入を同時にすることも可能です.`DECLARE @<variable> <data_type> = <value>`
+- `NULL`は値でないので条件文で`<value> = NULL`と書くことができません.代わりに`<value> is NULL`と書きます
 
 ### GROUP BY
 
@@ -86,7 +92,7 @@ SELECT <column>
 `SELECT`の前にサブクエリを作ります
 
 ```text
-WITH <sub_query> AS (...<processing the sub_query>)
+WITH <sub_query> AS (<processing the sub_query>)
 ```
 
 ### INNER JOIN
@@ -104,9 +110,21 @@ SELECT <column1> <column2> FROM <table1>
 
 `LEFT`と`RIGHT`はどちらのテーブルを軸にするかです
 
-例えば,`LEFT`の場合,`LEFT`のテーブルにしかない値も取得し,`RIGHT`の列が入る部分は`null`で補完されます
+例えば,`LEFT`の場合,`LEFT`のテーブルにしかない値も取得し,`RIGHT`の列が入る部分は`NULL`で補完されます
 
 ```text
 SELECT <column1> <column2> FROM <table1>
     (LEFT|RIGHT) OUTER JOIN table2 ON <condition>
+```
+
+### RANK
+
+`RANK`は順序を付け,列に整数がデータとして入ります
+
+`<name>`という列としてDBを更新します
+
+順序付けの基準は`ORDER BY`で定め,`PARTITION BY`でグループごとに順位付けることができます
+
+```text
+RANK() OVER (PARITITION BY <group> ORDER BY <value> (DESC|ASC)) [AS] name
 ```
