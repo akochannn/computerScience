@@ -31,11 +31,16 @@ hoge
 * [Algorithm](algorithm/algorithm.md)
 * [Information Theory](information-theory/information-theory.md)
 
+## 応用
+
+* [Bioinfomatics](bioinformatics/bioinformatics.md)
+
 ## 関連
 
 * [Editor](related-topics/editor.md)
 * [Latex](related-topics/latex.md)
 * [Git](related-topics/git.md)
+* [SQL](related-topics/sql.md)
 
 {% hint style="info" %}
 本文に従って何かしらの不利益を被った際の責任は取りませんのであしからず
