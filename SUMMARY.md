@@ -19,6 +19,11 @@
 * [Entropy](information-theory/entropy.md)
 * [Information Resource](information-theory/information-resource.md)
 
+## Bioinformatics
+
+* [Bioinformatics](bioinformatics/bioinformatics.md)
+* [Sorting][bioinformatics/sorting.md]
+
 ## Related Topics
 
 * [Editor](related-topics/editor.md)
