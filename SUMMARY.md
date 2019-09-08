@@ -22,7 +22,7 @@
 ## Bioinformatics
 
 * [Bioinformatics](bioinformatics/bioinformatics.md)
-* [Sorting][bioinformatics/sorting.md]
+* [Sorting](bioinformatics/sorting.md)
 
 ## Related Topics
 
